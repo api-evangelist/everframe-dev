@@ -1,4 +1,4 @@
-# everframe-dev
+# Everframe
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-everframe-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://everframe.dev/
+Everframe provides a bug reporting SDK for mobile, web, and TV applications, offering crash reporting, QA capture, and in‑app bug reports that include replay, console logs, network activity, and device information. Developers can integrate the SDK to automatically capture crashes, user‑initiated reports, and detailed context across platforms.
+
+**Areas:** Bug Reporting · SDK · Mobile · Web · TV
+
+## Everframe on APIs.io
+
+Everything profiled for Everframe is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/everframe-dev/](https://apis.io/providers/everframe-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Everframe API](https://apis.io/apis/everframe-dev/everframe-api/) — The Everframe API provides endpoints for ingesting bug reports and managing tickets as documented in the developer docs.
+- [Everframe API](https://apis.io/apis/everframe-dev/everframe-dev-api/) — Everframe API as documented publicly: 5 operations. Contract generated from the documentation by API Evangelist (2026-11-07); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [GetApiConfigResponse](https://apis.io/schemas/everframe-dev/everframe-dev-get-api-config-response/)
+- [PostApiIngestResponse](https://apis.io/schemas/everframe-dev/everframe-dev-post-api-ingest-response/)
+- [PostApiV1TicketsRequest](https://apis.io/schemas/everframe-dev/everframe-dev-post-api-v1-tickets-request/)
+- [PostApiV1TicketsResponse](https://apis.io/schemas/everframe-dev/everframe-dev-post-api-v1-tickets-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Everframe Dev Context](https://apis.io/jsonld/everframe-dev/everframe-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Everframe API Rules](https://apis.io/rules/everframe-dev/everframe-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Everframe Dev Domain Security](https://apis.io/security/everframe-dev/everframe-dev-domain-security/)
+- [Everframe Dev Vulnerability Disclosure](https://apis.io/security/everframe-dev/everframe-dev-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Everframe Dev Plans Pricing](https://apis.io/plans/everframe-dev/everframe-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://everframe.dev/)
+- [Documentation](https://everframe.dev/docs/)
+- [Getting started](https://everframe.dev/docs/)
+- [API reference](https://everframe.dev/docs/)
+- [Pricing](https://everframe.dev/pricing/)
+- [Sign up](https://everframe.dev/admin/signup)
+- [Changelog](https://everframe.dev/changelog/)
+- [Security](https://everframe.dev/security/)
+- [Terms of service](https://everframe.dev/terms/)
+- [Privacy policy](https://everframe.dev/privacy/)
+- [GitHub](https://github.com/scriptx-com)
+
+## API Evangelist rating
+
+**Kin Score 58.9** — strong · rubric 0.26.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 50.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 38.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/everframe-dev/](https://apis.io/providers/everframe-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Everframe: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/everframe-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
